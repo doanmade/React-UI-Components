@@ -1,0 +1,49 @@
+.bigBox {
+  width: 400px;
+  border: 1 solid gray;
+}
+.calc {
+  width: 100%;
+  display: flex;
+}
+.actionButton {
+  width: 25%;
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(126, 2, 2);
+  padding: 15px;
+  text-align: center;
+  border: 1 solid gray;
+}
+.numButton {
+  width: 27%;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  border: 1 solid gray;
+}
+.numButton0 {
+  width: 75%;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  border: 1 solid gray;
+}
+
+.clearButton {
+  width: 75%;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  border: 1 solid gray;
+}
