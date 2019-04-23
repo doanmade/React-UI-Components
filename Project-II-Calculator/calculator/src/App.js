@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
+import ActionButton from "./components/ButtonComponents/ActionButton.js";
 import NumberButton from "./components/ButtonComponents/NumberButton.js";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay.js";
-import ActionButton from "./components/ButtonComponents/ActionButton.js";
 const App = () => {
   return (
     <div className="bigBox">
@@ -10,7 +10,7 @@ const App = () => {
         <CalculatorDisplay style="display" text="0" />
       </div>
       <div className="calc">
-        <ActionButton buttonStyle="clearButton" text="clear" />
+        <ActionButton buttonStyle="clearButton" text="Clear" />
         <ActionButton buttonStyle="actionButton" text="&#215;" />
       </div>
       <div className="calc">

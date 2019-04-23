@@ -1,6 +1,24 @@
 .bigBox {
-  width: 400px;
-  border: 1 solid gray;
+  width: 30%;
+  border: 1px solid gray;
+  margin: 50px auto;
+}
+@media (max-width: 1000px) {
+  .bigBox {
+    width: 45%;
+  }
+}
+@media (max-width: 750px) {
+  .bigBox {
+    width: 55%;
+  }
+}
+
+@media (max-width: 570px) {
+  .bigBox {
+    width: 95%;
+    margin: 10px auto;
+  }
 }
 .calc {
   width: 100%;
@@ -11,39 +29,59 @@
   font-size: 50px;
   font-weight: 500;
   color: white;
-  background-color: rgb(126, 2, 2);
+  background-color: #a0001e;
   padding: 15px;
   text-align: center;
   border: 1 solid gray;
+  &:hover {
+    color: rgb(41, 41, 41);
+    background-color: #a00030;
+    border: 1 solid rgb(71, 71, 71);
+  }
 }
 .numButton {
   width: 27%;
   font-size: 30px;
   font-weight: 700;
   color: black;
-  background-color: beige;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
   border: 1 solid gray;
+  &:hover {
+    color: rgb(41, 41, 41);
+    background-color: rgb(255, 255, 244);
+    border: 1 solid rgb(71, 71, 71);
+  }
 }
 .numButton0 {
   width: 75%;
   font-size: 30px;
   color: black;
   font-weight: 700;
-  background-color: beige;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
   border: 1 solid gray;
+  &:hover {
+    color: rgb(41, 41, 41);
+    background-color: rgb(255, 255, 244);
+    border: 1 solid rgb(71, 71, 71);
+  }
 }
 
 .clearButton {
   width: 75%;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 500;
   color: black;
-  background-color: beige;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
   border: 1 solid gray;
+  /* &:hover {
+    color: rgb(41, 41, 41);
+    background-color: rgb(255, 255, 244);
+    border: 1 solid rgb(71, 71, 71);
+  } */
 }
